@@ -1,0 +1,293 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: #fff;
+    height: 100%;
+}
+.wrapp-content {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.info-box-01 {
+    background-color: #f8f8f8;
+}
+
+.social-list-01 {
+    margin: 0;
+    padding: 12px 0;
+    text-align: left;
+}
+.social-list-01 li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 19px;
+}
+.social-list-01 li a {
+    display: block;
+}
+
+a {
+    color: #a0ce4e;
+    text-decoration: none;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    text-decoration: none;
+}
+
+.social-list-01 li a i {
+    font-size: 14px;
+    color: #727e85;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.5;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.text-right {
+    text-align: right;
+}
+.contact-block-01 {
+    float: right;
+    padding: 12px 0;
+}
+.contact-block-01__email {
+    font-size: 14px;
+    line-height: 16px;
+    color: #9aa2a7;
+    font-weight: 300;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 26px;
+}
+.contact-block-01__phone {
+    font-size: 14px;
+    line-height: 16px;
+    color: #9aa2a7;
+    font-weight: 300;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 20px;
+    letter-spacing: 0.6px;
+    margin: 0 0 0 37px;
+}
+.contact-block-01__lang {
+    font-size: 14px;
+    line-height: 16px;
+    color: #9aa2a7;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 15px;
+    padding-left: 16px;
+    margin-left: 36px;
+    position: relative;
+    font-weight: 300;
+}
+.contact-block-01__email::before {
+    font-family: 'FontAwesome';
+    content: '\f0e0';
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -8px;
+}
+.main-nav {
+    width: 100%;
+    text-align: right;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.05);
+    padding: 25px 0;
+}
+.logo {
+    display: block;
+    float: left;
+}
+.main-nav__btn {
+    vertical-align: middle;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: none;
+    padding: 0;
+    color: #000;
+    position: relative;
+}
+.search-block {
+    float: right;
+    margin-top: 15px;
+    margin-left: 51px;
+    position: relative;
+}
+.main-nav__list {
+    margin: 0;
+    padding: 5px 0 0;
+    display: block;
+    vertical-align: middle;
+}
+.main-nav__btn .icon-left {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    position: absolute;
+    height: 4px;
+    top: 23px;
+    width: 15px;
+    left: 11px;
+    background-color: #303638;
+}
+.main-nav__btn .icon-right {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    position: absolute;
+    height: 4px;
+    top: 23px;
+    width: 15px;
+    background-color: #303638;
+    left: 15px;
+    left: 25px;
+}
+
+.search-btn {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.search-block__form {
+    position: absolute;
+    top: 213%;
+    right: -30px;
+    visibility: collapse;
+    opacity: 0;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    z-index: -100;
+}
+.search-block__form-text {
+    border: 1px solid #eeeeee;
+    height: 38px;
+    width: 233px;
+    padding: 5px 19px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.main-nav__list li:first-child {
+    margin-left: 0;
+}
+
+.main-nav__list li {
+    position: relative;
+    text-align: left;
+}
+
+.main-nav__list > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 23px;
+}
+.main-nav__list > li > .sf-with-ul {
+    position: relative;
+    padding: 10px 19px 10px 10px;
+}
+
+.main-nav__list li a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #303638;
+    font-weight: 300;
+    display: block;
+}
+
+.main-nav__list li ul {
+    position: absolute;
+    top: 124%;
+    left: 0;
+    background-color: #fff;
+    margin: 0;
+    padding: 25px 30px;
+    width: 237px;
+    z-index: 100;
+    border: 1px solid #eeeeee;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+.main-nav__list li:first-child {
+    margin-left: 0;
+}
+
+.main-nav__list li ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.main-nav__list li {
+    position: relative;
+    text-align: left;
+}
+ > .dropdown-menu{
+	display:block;
+}
+.sf-with-ul .info {
+     display: block;  
+}
+.main-nav__list > li > .sf-with-ul::before {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -12px;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.main-nav__list > li a:hover{
+color:#b1ce4e;
+text-decoration:none;
+}
+.sf-with-ul:hover + ul {
+    display: block!important;
+}
+.main-nav__list li ul::before {
+	content: '';
+	border: 10px solid #f1f1f1;
+	border-top: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	margin-left: -93px;
+}
+
+.main-nav__list li ul::after {
+	content: '';
+	border: 10px solid #fff;
+	border-top: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	top: -19px;
+	left: 50%;
+	margin-left: -93px;
+}

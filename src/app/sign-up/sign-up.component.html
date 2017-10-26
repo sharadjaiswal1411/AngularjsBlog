@@ -1,0 +1,87 @@
+<div class="container"> 
+	<div class="row">
+	<div class="col-md-6  col-sm-12" style="margin-top:50px;">
+	<!--<img  alt="DevQuora From Developers to Developers" src="/assets/img/devquora.jpg">-->
+	<h2>DevQuora</h2>
+	<span> From Developers To Developers (A D2D Network) </span>
+	</div>	
+	 <div id="signupbox" style="margin-top:50px" class="mainbox col-md-6  col-sm-12">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<div class="panel-title">Sign Up</div>
+								<div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" onclick="$('#signupbox').hide(); $('#loginbox').show()">Sign In</a></div>
+							</div>  
+							<div class="panel-body" >
+								<form id="signupform" class="form-horizontal" role="form">
+									
+									<div id="signupalert" style="display:none" class="alert alert-danger">
+										<p>Error:</p>
+										<span></span>
+									</div>
+										
+									
+									  
+									<div class="form-group">
+										<label for="email" class="col-md-3 control-label">Email</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control" name="email" placeholder="Email Address">
+										</div>
+									</div>
+										
+									<div class="form-group">
+										<label for="firstname" class="col-md-3 control-label">First Name</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control" name="firstname" placeholder="First Name">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="lastname" class="col-md-3 control-label">Last Name</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control" name="lastname" placeholder="Last Name">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="password" class="col-md-3 control-label">Password</label>
+										<div class="col-md-9">
+											<input type="password" class="form-control" name="passwd" placeholder="Password">
+										</div>
+									</div>
+										
+									<div class="form-group">
+										<label for="icode" class="col-md-3 control-label">Invitation Code</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control" name="icode" placeholder="">
+										</div>
+									</div>
+
+								 <div style="margin-top:10px" class="form-group">
+                                    <!-- Button -->
+
+                                    <div class="col-sm-12 controls">
+                                      <a id="btn-login" href="#" class="btn btn-success">SignUp  </a>
+                                      <a id="btn-fblogin" href="#" class="btn btn-primary">SignUp with Facebook</a>
+
+                                    </div>
+                                </div>
+									
+									
+                                <div class="form-group">
+                                    <div class="col-md-12 control">
+                                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                                           Already have an account! 
+                                        <a [routerLink]="['/signin.html']" >
+                                            Sign In Here
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>  
+									
+									
+									
+								</form>
+							 </div>
+						</div>
+			  </div>
+</div>
+</div>
+               
