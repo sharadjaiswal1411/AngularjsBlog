@@ -1,4 +1,54 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<app-header></app-header>
-<router-outlet></router-outlet>
+<div class="container">
+<div class="header-search" style="height:200px;margin-top:20px">
+		<div class="row">
 
+          <div class="col-md-12 order-md-1 text-center ">
+            <h1 class="mb-3 text-sm-nowrap">DevQuora A D2D Network</h1>
+           
+            <p class="lead">
+              From Developers 2 <strong>Developers</strong>.
+            </p>
+           
+
+
+          </div>
+       <div class="col-lg-6 mx-auto col-md-6 ">
+            <div class="panel panel-default" >
+                                            
+              <div class="d-flex flex-column flex-md-row lead mb-3">
+               <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    	<span id="search_concept">Filter by</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#contains">Contains</a></li>
+                      <li><a href="#its_equal">It's equal</a></li>
+                      <li><a href="#greather_than">Greather than ></a></li>
+                      <li><a href="#less_than">Less than < </a></li>
+                      <li class="divider"></li>
+                      <li><a href="#all">Anything</a></li>
+                    </ul>
+                </div>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+             
+            
+            </div>
+             
+            </div>
+
+           
+          <!-- <a href="#download" class="btn btn-md btn-default">Ask a Question</a>-->
+          </div>
+        </div>
+</div>
+
+<router-outlet></router-outlet>
+<!--<upload-form></upload-form>-->
+
+</div>
